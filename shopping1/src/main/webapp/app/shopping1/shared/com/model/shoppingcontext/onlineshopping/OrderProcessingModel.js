@@ -1,0 +1,36 @@
+Ext.define('Shopping1.shopping1.shared.com.model.shoppingcontext.onlineshopping.OrderProcessingModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "cartItems",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "amount",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "ccHolderName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "creditCardNo",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "customerId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "cvvNo",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "expiryMonth",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "expiryYear",
+          "type": "int",
+          "defaultValue": ""
+     }]
+});
